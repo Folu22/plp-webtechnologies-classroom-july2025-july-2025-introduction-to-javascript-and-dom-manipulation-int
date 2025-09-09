@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple student portal demonstrating age eligibility check, marks calculation, portal interaction.">
+  <title>Student Portal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🎓 Student Portal</h1>
+  <p>Welcome! Use the tools below to interact with your portal.</p>
+
+  <!-- Part 1: Basics -->
+  <section>
+    <h2>Age Eligibility Checker</h2>
+    <input id="ageInput" type="number" placeholder="Enter your age">
+    <button id="checkAgeBtn">Check Eligibility</button>
+    <p id="ageResult"></p>
+  </section>
+
+  <!-- Part 2: Functions -->
+  <section>
+    <h2>Marks Calculator</h2>
+    <input id="num1" type="number" placeholder="Score 1">
+    <input id="num2" type="number" placeholder="Score 2">
+    <button id="calcTotalBtn">Calculate Total</button>
+    <p id="totalResult"></p>
+  </section>
+
+  <!-- Part 3: Loops -->
+  <section>
+    <h2>Study Tools</h2>
+    <button id="countdownBtn">Exam Countdown (5 → 0)</button>
+    <ul id="countdownList"></ul>
+
+    <button id="listSubjectsBtn">Show My Subjects</button>
+    <ul id="subjectList"></ul>
+  </section>
+
+  <!-- Part 4: DOM Manipulation -->
+  <section>
+    <h2>Portal Interactivity</h2>
+    <button id="toggleBtn">Toggle Welcome Note</button>
+    <p id="toggleMessage" class="hidden">📢 Stay consistent and keep learning!</p>
+
+    <button id="changeColorBtn">Change Portal Theme</button>
+
+    <button id="addTaskBtn">Add Study Task</button>
+    <ul id="taskList"></ul>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
